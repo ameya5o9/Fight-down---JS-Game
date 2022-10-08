@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+/* body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'VT323', monospace;
+  background-color: rgba(220, 220, 220, 0.847);
+} */
+
+
+.nav-nav{
+  display: grid;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.872);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  width: 100%;
+  height: 50px;
+  font-family: 'VT323', monospace;
+  font-size: 25px;
+  letter-spacing: 2px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#p1 {
+  width:100px;
+  height:150px;
+}
+
+.p1Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+/*   background: red; */
+}
+
+#p1Name {
+  font-size: 30px;
+  font-family: 'VT323', monospace;
+  
+
+}
+
+#p1Health {
+  font-size: 50px;
+  font-family: 'VT323', monospace;
+
+}
+
+#p2{
+  width:100px;
+  height:150px;
+  -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+
+
+.p2Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+/*   background: red; */
+}
+
+#p2Name {
+  font-size: 30px;
+  font-family: 'VT323', monospace;
+
+}
+
+#p2Health {
+  font-size: 50px;
+  font-family: 'VT323', monospace;
+
+}
+
+.playerControls {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+  
+ 
+}
+
+.AttackDiv{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  height: 40px;
+  width: 100px;
+/*   background: blue; */
+}
+
+.HealDiv {
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  height: 40px;
+  width: 100px;
+/*   background: yellow; */
+}
+
+#attack {
+  height: 30px;
+  width: 60px;
+  border-radius: 50px;
+  border:none;
+  background: #ff6701;
+  outline: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#heal {
+  height: 30px;
+  width: 60px;
+  border-radius: 50px;
+  border:none;
+  background:rgb(8, 112, 8);
+  outline: none;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  color: white;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* letter-spacing: 3px; */
+}
+
+#play {
+  height: 50px;
+  width: 120px;
+  border-radius: 20px;
+/*   border:none; */
+  background: #02cf02;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
+#result {
+  font-size: 50px;
+  color : #3dff3d;
+  font-family: 'VT323', monospace;
+
+}
+
+#reset {
+  height: 50px;
+  width: 100px;
+/*   border:none; */
+  background: #000000;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+}
+
+.resultContainer {
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:150px;
+  width: 100%;
+}
+
+/* #img2{
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+} */
+
